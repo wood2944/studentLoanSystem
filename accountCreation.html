@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+   <link rel='stylesheet' type='text/css' href='css/style.css'>
+   <head>
+      <meta charset = "utf-8">
+      <title>Account Creation</title>
+   </head>
+   <body>
+      <h1>Account Creation Form</h1>
+      <p>Please fill in all fields and click submit.</p>
+   
+      <!-- post form data to insertDatabase.php -->
+      <form method = "post" action = "createAccount.php" enctype="multipart/form-data">
+
+         <!-- Creating User INPUT -->
+         <div><label class='creation'>Username:</label>
+            <input type = "text" name = "uname" required>
+         </div><br>
+         <div><label class='creation'>Password:</label>
+            <input type="password" name="password" required>
+         </div><br>
+         <div><label class='creation'>User Type:</label>
+         <select name = "userType"  required>
+            <option value="" selected disabled>Select an Option</option>
+            <option value="Student">Student</option>
+            <option value="Bank">Bank</option>
+            <option value="College">College</option>
+         </select>
+        </div><br>
+
+         <!-- create a submit button -->
+         <p><input type = "submit" name = "submit" value = "Create Account"></p>
+      </form>
+   </body>
+</html>

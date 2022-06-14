@@ -1,0 +1,124 @@
+html {
+    text-align: center;
+}
+
+.form {
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    background: #23463f;
+    border-radius: 15px ;
+    text-align: center;
+}
+.heading {
+    text-align: center;
+}
+
+.buttons {
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    padding: 40px;
+    background: #23463f;
+    border-radius: 15px ;
+    text-align: center;
+}
+
+.breadcrumb {
+    font-family: 'Arial';
+    font-size: larger;
+}
+.breadcrumb:visited {
+    color:#23463f;
+}
+.selector {
+    color:#23463f !important;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #277582;
+    padding: 20px;
+}
+
+label {
+    color: #277582;
+    font-size: 17px;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    font-family: 'Arial';
+}
+
+#Uname {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#amount {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+
+#request {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+img {
+    display: block;
+    width: 300px;
+    height: auto;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Logout Styling */
+
+.logout {
+    line-height: 12px;
+    width: 18px;
+    font-size: 8pt;
+    font-family: Arial;
+    margin-top: 1px;
+    margin-right: 2px;
+    position:absolute;
+    top: 0;
+    
+}
+
+
+ /* Table Styling */
+
+.query {
+    border: 2px;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
